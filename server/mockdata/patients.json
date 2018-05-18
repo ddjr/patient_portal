@@ -1,0 +1,50 @@
+{
+  "_id": "1",
+  "name": "Wayne Jones",
+  "email": "wayne@gmail.com",
+  "age": 21,
+  "phone": "5551231234",
+  "address": "123 main St",
+  "doctorId": 1,
+  "doctorName": "Dr. Dave Brown"
+}
+{
+  "_id": "2",
+  "name": "Ben Payne",
+  "email": "ben@gmail.com",
+  "age": 25,
+  "phone": "5551231234",
+  "address": "123 main St",
+  "doctorId": 1,
+  "doctorName": "Dr. Dave Brown"
+}
+{
+  "_id": "3",
+  "name": "Lucy Payne",
+  "email": "lucy@gmail.com",
+  "age": 34,
+  "phone": "5551231234",
+  "address": "123 main St",
+  "doctorId": 1,
+  "doctorName": "Dr. Dave Brown"
+}
+{
+  "_id": "4",
+  "name": "Olivia Payne",
+  "email": "olivia@gmail.com",
+  "age": 51,
+  "phone": "5551231234",
+  "address": "123 main St",
+  "doctorId": 2,
+  "doctorName": "Dr. Sophia Smith"
+}
+{
+  "_id": "5",
+  "name": "David Payne",
+  "email": "david@gmail.com",
+  "address": "123 main St",
+  "age": 48,
+  "phone": "5551231234",
+  "doctorId": 2,
+  "doctorName": "Dr. Sophia Smith"
+}

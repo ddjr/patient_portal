@@ -1,0 +1,18 @@
+{
+  "name": "tempus-code-challenge",
+  "version": "1.0.0",
+  "scripts": {
+    "client": "cd ../client && yarn start",
+    "server": "nodemon server.js",
+    "setup": "yarn && cd ../client && yarn && cd ../server && mongoimport --db test --collection patients --drop --file ./mockdata/patients.json && mongoimport --db test --collection appointments --drop --file ./mockdata/appointments.json",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "concurrently": "^3.5.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.10",
+    "nodemon": "^1.17.2",
+    "passport-userapp": "^1.1.2"
+  }
+}

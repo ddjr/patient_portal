@@ -1,0 +1,13 @@
+li {
+  text-align: center;
+  border: 1px black solid;
+  padding: 10px;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+.appointment {
+  margin: 0px;
+}

@@ -1,0 +1,14 @@
+.patientView {
+display: flex;
+flex-flow: row wrap;
+font-weight: bold;
+/* background: hotpink; */
+height:inherit;
+}
+
+.patientView > * {
+  padding: 10px;
+  flex: 1 100%;
+}@media all and (min-width: 600px) {
+  .patientView > * { flex: 1 auto; }
+}

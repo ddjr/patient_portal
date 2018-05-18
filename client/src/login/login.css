@@ -1,0 +1,16 @@
+.Login {
+  margin: 10px;
+  align-content: center;
+}
+FormGroup {
+  display: flex;
+  margin: 10px;
+}
+
+.form-group {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.control-label {
+  padding-right: 3px;
+}
